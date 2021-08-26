@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Alpha</title>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+	<link rel="stylesheet" href="css/fonts/fonts.css" />
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/animat/animate.min.css" />
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" href="css/themes/default/default.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+
+<style>
+#images {
+    white-space: nowrap;
+}
+.font {
+    font-family: sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+	<div id="font">
+	<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+	
+
+	 <!--<div class="navbar-fixed">
+	 <nav>
+    <div class="nav-wrapper #ffffff white">
+      <a class="brand-logo"><img src="images/logo.jpg" width="260" height="60"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse #ff1744 red accent-3"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile"  data-activates="mobile-demo" class="right hide-on-med-and-down">
+        <li><a href="#" class="#ff1744 red accent-3"><i class="material-icons">home</i></a></li>
+        <li><a href="#aboutsftc" class="#ff1744 red accent-3"><font size="4">What is FTC ?</font></a></li>
+        <li><a href="#aboutsus" class="#ff1744 red accent-3"><font size="4">Our Team</font></a></li>
+         <li><a href="members.HTML" class="#ff1744 red accent-3"><font size="4">About us</font></a></li>
+         <li><a href="promotion.html" class="#ff1744 red accent-3"><font size="4">Promotion</font></a></li>
+         <li><a href="gallary.html" class="#ff1744 red accent-3"><font size="4">Gallery</font></a></li>
+           <li><a href="video.html" class="#ff1744 red accent-3"><font size="4">Videos</font></a></li>
+      </ul>
+    </div>
+  </nav>
+	</div> -->
+		<center><img src="images/logo.jpg" width="200"></center>
+	<center><a  onclick="openNav()"><i class="material-icons">menu</i> </a></center>
+	<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+	<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html" class="#ff1744 "><i class="material-icons">home</i></a>
+  <a href="members.HTML" class="#ff1744 "><font size="4">About us</font></a>
+  <a href="promotion.html" class="#ff1744 "><font size="4">Promotion</font></a>
+  <a href="gallary.html" class="#ff1744 "><font size="4">Gallery</font></a>
+           <a href="video.html" class="#ff1744 "><font size="4">Videos</font></a>
+           <a ></a>
+  </div>
+</div>
+	<script>
+	  
+	$( document ).ready(function(){})
+	 $(".button-collapse").sideNav();
+</script>
+	
+	<section id="banner" class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="main_banner_area text-center">
+					<div class="col-md-12 col-sm-12">
+						<div class="single_banner_text wow zoomIn" data-wow-duration="1s">
+							 
+							<div class="separetor"></div>
+						</div>
+					</div>
+					
+					
+					<div class="scrolldown">
+						<a href="#aboutsftc" class="scroll_btn"></a>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section><!-- End of Banner Section -->
+	
+	
+	<section id="aboutsftc" class="abouts">
+		
+		<div class="container">
+			<div class="row">
+				<div class="main_abouts_content">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInLeft" data-wow-duration="1s" >
+							<p style="font-family: sans-serif;"><font color="red"><h1>What is FTC ?</h1></font></p>
+							<div class="separetor2"></div>
+							<p style="font-family: sans-serif;"><font size="3">It’s way more than building robots. FIRST Tech Challenge teams (10+ members, grades 7-12) are challenged to design, build, program, and operate robots to compete in a head-to-head challenge in an alliance format. Guided by adult Coaches and Mentors, students develop STEM skills and practice engineering principles (like keeping an engineering notebook), while realizing the value of hard work, innovation, and sharing ideas. The robot kit is reusable from year-to-year and can be programmed using a variety of languages, including Java. Teams also must raise funds, design and market their team brand, and do community outreach for which they can win awards. Participants have access to tens of millions of dollars in college scholarships. Each season concludes with Super-Regional Championships and an exciting FIRST Championship.</font></p>
+							
+						</div>
+					</div>
+				
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInRight" data-wow-duration="1s">
+							<img src="images/ftc.jpg" width="900" alt="" />
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInRight" data-wow-duration="1s">
+							
+							 <div id="images">
+							<input type="image" height="200" src="images/ftc4.jpg" >
+								<input type="image" height="200"  src="images/ftc5.jpg"  >
+						</div>
+						</div>
+						
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="aboutsus" class="abouts">
+		<div class="container">
+			<div class="row">
+				<div class="main_abouts_content">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInLeft" data-wow-duration="1s" >
+							<p style="font-family: sans-serif;"><font color="red"><h1>Our Team</h1></font></p>
+							<div class="separetor2"></div>
+							<p style="font-family: sans-serif;"><font size="3">We are proud of our team, Team ALPHA, as all of the members are committed to our mission-be professional and be united. There are three sectors in our team. Some members concentrate on programming and some have exhibited their talents in mechanic. We are also very pleased that some members are willing to devote their efforts in design and engineering. Although we have different robotic specialties and interests, all of us have been working together energetically to the pursuit of perfection.  We enjoy our learning process as well as the friendship and team spirit developed during the days and nights in which we condense all of the drops of our sweat and the bits of our heart blood. Last but not the least, if any success Team ALPHA may achieve in the contest, all of the honor should be dedicated to our most respectable and amiable robotic coach, 
+Mr. Thomas Lao and Mr. Kouk, Mr. Ng, and our supportable and affectionate parents. </font></p>
+							
+						</div>
+					</div>
+					
+					
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInRight" data-wow-duration="1s">
+							<img src="images/ftc6.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	<section id="counterUp" class="counterUp">
+		<div class="counter_overlay">
+			<div class="container">
+				<div class="row">
+					<div class="main_counter_content">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="1s">
+								<h4><i class="material-icons">account_box</i><span class="static-counter">10</span></h4>
+								<p style="font-family: sans-serif;">Teammates</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="1.8s">
+								<h4><i class="material-icons">group</i><span class="static-counter">1</span></h4>
+								<p style="font-family: sans-serif;">Big Family</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.2s">
+								<h4><i class="fa fa-star"></i><span class="static-counter">2</span></h4>
+								<p style="font-family: sans-serif;">Seasons</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.8s">
+								<h4><i class="material-icons">people</i><span class="static-counter">2</span></h4>
+								<p style="font-family: sans-serif;">Teams</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="steps" class="steps">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
+					<p style="font-family: sans-serif;"><h2>Three Department</h2></p>
+					<div class="separetor"></div>
+					<p>Our FTC Team is devided in 3 different departments. They are mechanic, program, and Public Relationship. This three departments can build a great team that could do impossible missions.</p>
+				</div>
+				<div class="main_steps_content text-center">
+					<div class="col-md-4">
+						<div class="single_steps wow fadeIn" data-wow-duration="1s">
+							<a href=""><i class="material-icons">build</i></a>
+							<p style="font-family: sans-serif;"><h4>Mechanic</h4></p>
+							<p style="font-family: sans-serif;">Robot Design, engineering and 3D CAD</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single_steps wow fadeIn" data-wow-duration="1.8s">
+							<a href=""><i class="material-icons">android</i></a>
+							<p style="font-family: sans-serif;"><h4>Program</h4></p>
+							<p style="font-family: sans-serif;">Programming, Web Design</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single_steps wow fadeIn" data-wow-duration="2.8s">
+							<a href=""><i class="material-icons">people</i></a>
+							<p style="font-family: sans-serif;"><h4>Public Relationship</h4></p>
+							<p style="font-family: sans-serif;">Promotion, soveveis and Pizzas</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="main_footer text-center wow zoomIn" data-wow-duration="1s">
+						<p>Made by Alpha85302 - EdwardSwalker. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!-- STRAT SCROLL TO TOP -->
+	
+	<div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+	
+	
+	
+	
+	
+
+	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+	
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+	
+	<script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
+	
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+	
+	
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/wow/wow.min.js"></script>
+	<!--<script type="text/javascript" src="js/counterup/counterup.min.js"></script>-->
+	
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>-->
+	<!--<script type="text/javascript" src="js/counterup/jquery.counterup.min.js"></script>-->
+	
+	
+	<script type="text/javascript" src="js/isotop/isotope.min.js"></script>
+	<script type="text/javascript" src="js/isotop/isotop.function.js"></script>
+	
+	<script type="text/javascript" src="js/masonry/masonry.min.js"></script>
+	
+	<script type="text/javascript" src="js/mixitup/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/masonry/masonry.pkgd.min.js"></script>
+</div>
+</body>
+
+</html>
